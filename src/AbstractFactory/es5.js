@@ -2,7 +2,7 @@
  * Created by LLGZONE on 2017/10/3.
  */
 
-//a simple example
+//a simple example from Learning JavaScript Design Patterns by Addy Osmani
 /**
  * define the constructor of Car
  * @param {object} options you can config the car by pass a object which
