@@ -47,6 +47,8 @@ const id = cObserver.addListener('message', (...args) => {
   console.log(args.join(','))
 })
 
+console.log(typeof Observer === 'undefined') // true
+
 cObserver.fire('message', 'hello', 'world')
 
 cObserver.removeListener(id)
